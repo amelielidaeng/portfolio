@@ -1,12 +1,12 @@
 .navbar {
-    height: 200px;
+    height: 100px;
     font-family: "Permanent Marker";
 //  text-transform: uppercase;
 }
 
-.navbar-dark .navbar-brand {
+.navbar-light .navbar-brand {
     color: #ff5376;
-    text-shadow: 1px 1px #fcf7f8; 
+    text-shadow: 2px 2px #f7b7df;  
     font-size: 44px;
 
     &:hover {
@@ -16,8 +16,8 @@
 
 .link-light {
     color: #ff5376;
-    text-shadow: .5px .5px #fcf7f8;
-    font-size: 24px;
+    text-shadow: 1.5px 1.5px #f7b7df;
+    font-size: 26px;
     letter-spacing: 1.5px;
 
     &:hover {

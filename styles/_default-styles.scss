@@ -3,29 +3,10 @@ body {
     color: #2B303A;
     background-color: #fcf7f8;
     margin: 10px;
+    height: 100%;
 }
 
-.navbar {
-    height: 200px;
-    font-family: "Fugaz One", italic;
-//  text-transform: uppercase;
-}
 
-.navbar-dark .navbar-brand {
-    color: #ff5376;
-    text-shadow: 1px 1px #fcf7f8; //change this
-    font-size: 40px;
-
-    &:hover {
-        color: #9dfff9;
-    }
-}
-
-.link-light {
-    color: #ff5376;
-    text-shadow: 1px 1px #fcf7f8;
-
-    &:hover {
-        color: #9dfff9;
-    }
+main {
+    margin: auto;
 }
